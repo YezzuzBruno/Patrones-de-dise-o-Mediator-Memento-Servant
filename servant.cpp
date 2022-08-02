@@ -123,12 +123,12 @@ int main(){
     mover->moveBy(triangulo,10,60);
     mover->moveBy(rectangulo,10,60);
     mover->moveBy(elipse,10,60);
-	delete puntoA;
+    delete puntoA;
     delete puntoB;
     delete puntoC;
-	delete triangulo;
-	delete rectangulo;
-	delete elipse;
+    delete triangulo;
+    delete rectangulo;
+    delete elipse;
     return 0;
 
 }
